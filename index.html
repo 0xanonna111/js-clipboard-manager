@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Clipboard Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="clipboard">
+    <h2>Clipboard Manager</h2>
+
+    <textarea id="text" placeholder="Type something here..."></textarea>
+
+    <div class="buttons">
+      <button onclick="copyText()">Copy</button>
+      <button onclick="pasteText()">Paste</button>
+      <button onclick="clearText()">Clear</button>
+    </div>
+
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
